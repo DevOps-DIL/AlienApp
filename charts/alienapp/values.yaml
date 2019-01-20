@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.99.42.188:5000/devops-dil/alienapp
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 service:
   name: alienapp
